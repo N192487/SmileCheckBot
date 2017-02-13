@@ -83,7 +83,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
                     Activity reply = activity.CreateReply(responseMsg);
                     await connector.Conversations.ReplyToActivityAsync(reply);
                     break;
-                case ActivityTypes.conversationUpdate:
+                case ActivityTypes.ConversationUpdate:
                 case ActivityTypes.ContactRelationUpdate:
                 case ActivityTypes.Typing:
                 case ActivityTypes.DeleteUserData:
