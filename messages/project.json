@@ -1,0 +1,10 @@
+{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+      "Microsoft.Bot.Builder.Azure": "3.1",
+      "Microsoft.ProjectOxford.Emotion": "1.0.336"
+      }
+    }
+   }
+}
